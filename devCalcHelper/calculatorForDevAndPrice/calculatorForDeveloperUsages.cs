@@ -15,7 +15,11 @@ namespace calculatorForDevAndPrice
             System.Console.OutputEncoding = System.Text.Encoding.UTF8; // enable to view square meters
             string asterix = "*************";
             Console.WriteLine(@"{0}Little helper for set up proccessors v1.2{0}", asterix);
+<<<<<<< HEAD
             string userPassWord = "naskoGed";
+=======
+            string userPassWord = "XXXX";
+>>>>>>> 17929fe4c1afc9803219b998e017ecb3a05c0a2d
             while (!isAuthorizeUser(userPassWord))
             {
                 Console.WriteLine("Password is Not Correct. Please try again: ");
