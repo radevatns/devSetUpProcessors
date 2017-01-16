@@ -1,0 +1,12 @@
+D:\li4ni\Nasko\PC_School\Arduino\Projekts\LCD_2DHT_ESP8266_nano\devCalcHelper\calculatorForDevAndPrice\bin\Debug\calculatorForDevAndPrice.exe.config
+D:\li4ni\Nasko\PC_School\Arduino\Projekts\LCD_2DHT_ESP8266_nano\devCalcHelper\calculatorForDevAndPrice\bin\Debug\calculatorForDevAndPrice.exe
+D:\li4ni\Nasko\PC_School\Arduino\Projekts\LCD_2DHT_ESP8266_nano\devCalcHelper\calculatorForDevAndPrice\bin\Debug\calculatorForDevAndPrice.pdb
+D:\li4ni\Nasko\PC_School\Arduino\Projekts\LCD_2DHT_ESP8266_nano\devCalcHelper\calculatorForDevAndPrice\obj\Debug\calculatorForDevAndPrice.csprojResolveAssemblyReference.cache
+D:\li4ni\Nasko\PC_School\Arduino\Projekts\LCD_2DHT_ESP8266_nano\devCalcHelper\calculatorForDevAndPrice\obj\Debug\calculatorForDevAndPrice.exe
+D:\li4ni\Nasko\PC_School\Arduino\Projekts\LCD_2DHT_ESP8266_nano\devCalcHelper\calculatorForDevAndPrice\obj\Debug\calculatorForDevAndPrice.pdb
+D:\GED\service info\Plate Line Equipment\devSetUpProcessors\devCalcHelper\calculatorForDevAndPrice\bin\Debug\calculatorForDevAndPrice.exe.config
+D:\GED\service info\Plate Line Equipment\devSetUpProcessors\devCalcHelper\calculatorForDevAndPrice\obj\Debug\calculatorForDevAndPrice.exe
+D:\GED\service info\Plate Line Equipment\devSetUpProcessors\devCalcHelper\calculatorForDevAndPrice\obj\Debug\calculatorForDevAndPrice.pdb
+D:\GED\service info\Plate Line Equipment\devSetUpProcessors\devCalcHelper\calculatorForDevAndPrice\bin\Debug\calculatorForDevAndPrice.exe
+D:\GED\service info\Plate Line Equipment\devSetUpProcessors\devCalcHelper\calculatorForDevAndPrice\bin\Debug\calculatorForDevAndPrice.pdb
+D:\GED\service info\Plate Line Equipment\devSetUpProcessors\devCalcHelper\calculatorForDevAndPrice\obj\Debug\calculatorForDevAndPrice.csprojResolveAssemblyReference.cache
