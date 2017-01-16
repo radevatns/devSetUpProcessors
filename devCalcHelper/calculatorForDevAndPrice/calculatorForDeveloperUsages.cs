@@ -14,9 +14,9 @@ namespace calculatorForDevAndPrice
         {
             System.Console.OutputEncoding = System.Text.Encoding.UTF8; // enable to view square meters
             string asterix = "*************";
-            Console.WriteLine(@"{0}Little helper for set up proccessors v1.2{0}",asterix);
-            string passWord = "pass";
-            while (!isAutorizeUser(passWord))
+            Console.WriteLine(@"{0}Little helper for set up proccessors v1.2{0}", asterix);
+            string userPassWord = "pass";
+            while (!isAuthorizeUser(userPassWord))
             {
                 Console.WriteLine("Password is Not Correct. Please try again: ");
             }
@@ -40,9 +40,6 @@ namespace calculatorForDevAndPrice
                         break;
                     case "5"://plate option dual xd and max
                         DualProcessing();//Max and XD
-                        break;
-                    case "admin"://hidden function for admin purpouse
-                        Console.WriteLine("admin function");
                         break;    
                     default:
                         Console.WriteLine("use Plate option form 1 to 5 or \"Exit\" for close the program");
@@ -55,17 +52,58 @@ namespace calculatorForDevAndPrice
             Console.WriteLine("{0}Thank you for use Nasko's program {0}\n\n{0}Press \"Enter\" to close the program{0}", asterix);
             var exit = Console.ReadLine();
         }
-        
-        
-        
-        private static bool isAutorizeUser(string passWord)
+
+        private static string adminFunction()// for future use
+        {
+            string newUserPassWord= "admin";
+            adminMenu();
+            string adminOption = Console.ReadLine().ToLower();
+            while (adminOption != "back")
+            {
+                switch (adminOption)
+                {
+                    case "1"://change user password
+                        Console.WriteLine("Please enter new user Password");
+                        string changePassWord1 = Console.ReadLine();
+                        Console.WriteLine("Please re-enter new user Password");
+                        string changePassWord2 = Console.ReadLine();
+                        if (changePassWord1 == changePassWord2)
+                        {
+                            newUserPassWord = changePassWord1;
+                            //return userPassWord;
+                            Console.WriteLine(newUserPassWord + " newUserPassWord");
+                            Console.WriteLine(changePassWord1 + " changePassWord1");
+                        }
+                        else
+                        {
+                            Console.WriteLine("The passwords that you enter is not the same. Please try again");
+                        }
+                    break;
+
+                    default:
+                        break;
+                }
+                adminMenu();
+                adminOption = Console.ReadLine().ToLower();
+            }
+            Console.WriteLine(newUserPassWord + " userPassWord");
+            return newUserPassWord;
+        }
+        private static void adminMenu() // for futire use
+        {
+            string adminQuestion = "\n Please select option or type \"back\" to return in main menu";
+            string adminMenu = "\n 1. Change userPassword";
+            Console.WriteLine(adminQuestion + adminMenu);
+        }
+
+        private static bool isAuthorizeUser(string userPassWord)
         {
             //bool condition;
             string question = "Please enter your password: ";
             Console.WriteLine(question);
             string inputPassWord = Console.ReadLine();
             
-            if (inputPassWord == passWord)
+            if (inputPassWord == userPassWord)
                 return true;
             else
                 return false;
